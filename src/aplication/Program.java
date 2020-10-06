@@ -14,13 +14,13 @@ public class Program {
 		
 		System.out.println("Enter product data: ");
 		System.out.print("Name: ");
-		product.nome = sc.nextLine();
+		product.name = sc.nextLine();
 		System.out.print("Price: ");
 		product.price = sc.nextDouble();
 		System.out.print("Quantity: ");
 		product.quantity = sc.nextInt();
 		
-		System.out.println(product.nome + ", " + product.price + ", " + product.quantity);
+		System.out.println(product);
 		
 		
 		
